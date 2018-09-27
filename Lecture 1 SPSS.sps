@@ -1,4 +1,3 @@
-﻿* Encoding: UTF-8.
 
 *Use asterisk to make comments
 
