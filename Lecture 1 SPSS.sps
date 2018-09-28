@@ -95,11 +95,6 @@ COMPUTE Year=3.
 EXECUTE.
 FORMATS Year (F8.0).
 
-*Add value labels.
-
-Value labels Int 0 'Control' 1 'Treatment' 
-/year 1 'study year 1' 2 'study year 2' 3 'study year 3'.
-
 *Add variable labels.
 
 VARIABLE LABELS Int 'Treatment Status'
