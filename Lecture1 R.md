@@ -32,7 +32,7 @@ library(tidyverse)
 First set your working directory.
 
 ``` r
-setwd("W:/Projects/MPC-All-Projects/MPC-Team/Data Entry Training/Syntax Training/Syntax and Data/Training1")
+setwd("W:/Projects/MPC-All-Projects/MPC-Team/Data Entry Training/Syntax Training/Syntax and Data")
 ```
 
 ### For SPSS
