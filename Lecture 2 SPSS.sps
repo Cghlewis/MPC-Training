@@ -24,24 +24,19 @@ EXECUTE.
 
 **2. Explore number of cases
 
-***Exploring the data
-
-**Number of cases
-
 FREQUENCIES VARIABLES=Q1 
   /FORMAT=LIMIT(5).
-
 
 *Sort cases by student name
 
 SORT CASES BY Q2_2_TEXT Q2_1_TEXT. 
-
 
 *If we were supposed to have 12 observations we would need to go back and figure out who is missing
 *If we were supposed to have 8, we need to figure out who isn't supposed to be in there
     *Checking for duplicates, go over later (like in this case there is an extra Crystal Lewis we would need to delete one)
     *Checking against a roster to see who isn't in the study
 *In the case of SCSL and NIJ, the surveys are anonymous so we don't know if we are missing anyone
+
 
 **3. Delete unncessary variables
 
