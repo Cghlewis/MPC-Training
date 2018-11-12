@@ -73,7 +73,7 @@ dim(XL)
 
     ## [1] 10 89
 
-### Sort Data to see who shouldn't be in the file
+### Sort data to see who shouldn't be in the file
 
 ``` r
 #arrange comes from dplyr in tidyverse
@@ -276,7 +276,7 @@ summary(XL2$tocaconcentT1m)
 (11) Add missing values for all variables
 -----------------------------------------
 
-In our case NAs are already assigned to missing But if you needed to assign NA to a missing value from say SPSS here is an example:
+In our case NAs are already assigned to missing, but if you needed to assign NA to a missing value from say SPSS here is an example:
 
 ``` r
 XL2$toca1T1[XL2$toca1T1==999]<--NA
